@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: potato
+  profiles:
+    include: common,prod
+
+foo:
+  bar: app-default
